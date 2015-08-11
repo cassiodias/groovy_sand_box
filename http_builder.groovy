@@ -3,7 +3,7 @@ import groovyx.net.http.*
 import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
-def apiToken = 'b976c0113763235381d4794b8db25ba884e453a3'
+def apiToken = ''
 
 def http = new HTTPBuilder( 'https://api.github.com/' )
 
