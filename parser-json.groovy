@@ -5,7 +5,7 @@
 	]
 )
 
-final URL url = new URL('http://api.walmartlabs....') // file with 4.2gb
+final URL url = new URL('http://api.walmartlabs.com/v1/feeds/checkoutV2?apiKey=jk2bwa8w7dwnuj247p4rcpeq') // file with 4.2gb
 
 def urlConnection = (HttpURLConnection) url.openConnection(java.net.Proxy.NO_PROXY)
 
